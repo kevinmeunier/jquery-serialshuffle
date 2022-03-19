@@ -1,7 +1,7 @@
 # jQuery serialshuffle - Lightweight randomised logo animation
 
 ## About jQuery serialshuffle
-Large companies usually show a grid of logos, however, the choice of the logos might be subject to discussion. This plugin will show many logos randomnly based on a grid (6, 9, 12, etc.). Only the first set of logos will be loaded on page load, the rest will be added in JavaScript to avoid any useless HTTP requests. Note that jQuery serialshuffle is shared for inspirational and development purpose.
+Large companies usually show a grid of logos, however, the choice of the logos might be subject to discussion. This plugin will randomnly show many logos based on a grid (6, 9, 12, etc.). Only the first set of logos will be loaded on page load, the rest will be added in JavaScript to avoid any useless HTTP requests. Note that jQuery serialshuffle is shared for inspirational and development purpose.
 
 
 ## Demonstration
