@@ -65,7 +65,8 @@ The following configurations is available by default:
 
 Name               | Type       | Default                             | Description
 ------------------ | ---------- | ----------------------------------- | -----------
-stack              | *string*   | *'[]'*                              | An array of additional images
+folder             | *string*   | *''*                                | The root folder for the images
+stack              | *string*   | *'[]'*                              | An array of additional images (Mandatory)
 speed              | *integer*  | *'2000'*                            | The delay between the displayed logo and the new one
 
 
