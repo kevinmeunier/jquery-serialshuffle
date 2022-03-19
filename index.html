@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://github.meunierkevin.com/assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<link href="https://github.meunierkevin.com/assets/css/site-all.css" rel="stylesheet">
+<script src="https://github.meunierkevin.com/assets/js/jquery.min.js"></script>
+<script src="https://github.meunierkevin.com/assets/js/site-all.js"></script>
+<title>jQuery serialshuffle — Meunier Kévin</title>
+</head>
+<body>
+
+<script>writeHeader('serialshuffle');</script>
+
+<div id="section-demonstration-html">
+  <ul class="js-serialshuffle">
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-amazon.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-cisco.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-cocacola.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-coinbase.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-facebook.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-fossil.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-google.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-huawei.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-oppo.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-sandisk.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-slack.svg" alt=""></li>
+    <li><img src="https://github.meunierkevin.com/assets/img/serialshuffle/logo-sony.svg" alt=""></li>
+  </ul>
+</div>
+<div id="section-demonstration-js">
+  <script src="dist/jquery.serialshuffle.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // jquery.serialshuffle initialisation
+    $('.js-serialshuffle').serialshuffle({
+      folder: 'https://github.meunierkevin.com/assets/img/serialshuffle/',
+      shuffle: [
+        'logo-stripe.svg',
+        'logo-tmobile.svg',
+        'logo-toyota.svg',
+        'logo-uber.svg',
+        'logo-ups.svg',
+        'logo-vware.svg',
+        'logo-westerndigital.svg'
+      ]
+    });
+  });
+  </script>
+</div>
+<div id="section-demonstration-css">
+  <style type="text/css">
+  /* JavaScript: serialshuffle */
+  .js-serialshuffle{display:flex;flex-wrap:wrap;}
+  .js-serialshuffle > li{position:relative;display:flex;justify-content:center;width:25%;height:100px;}
+  .js-serialshuffle img{padding:20px;max-width:100%;max-height:100%;}
+  .js-serialshuffle .sub-animate{display:flex;justify-content:center;position:absolute;top:0;right:0;bottom:0;left:0;opacity:0;}
+  </style>
+</div>
+
+<script>writeFooter('serialshuffle');</script>
+
+</body>
+</html>
